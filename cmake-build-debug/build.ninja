@@ -55,8 +55,14 @@ build CMakeFiles/sysproglab5.dir/main.c.obj: C_COMPILER__sysproglab5_unscanned_D
   OBJECT_DIR = CMakeFiles\sysproglab5.dir
   OBJECT_FILE_DIR = CMakeFiles\sysproglab5.dir
 
-build CMakeFiles/sysproglab5.dir/input.c.obj: C_COMPILER__sysproglab5_unscanned_Debug D$:/sysproglab5/input.c || cmake_object_order_depends_target_sysproglab5
-  DEP_FILE = CMakeFiles\sysproglab5.dir\input.c.obj.d
+build CMakeFiles/sysproglab5.dir/input1.c.obj: C_COMPILER__sysproglab5_unscanned_Debug D$:/sysproglab5/input1.c || cmake_object_order_depends_target_sysproglab5
+  DEP_FILE = CMakeFiles\sysproglab5.dir\input1.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\sysproglab5.dir
+  OBJECT_FILE_DIR = CMakeFiles\sysproglab5.dir
+
+build CMakeFiles/sysproglab5.dir/input2.c.obj: C_COMPILER__sysproglab5_unscanned_Debug D$:/sysproglab5/input2.c || cmake_object_order_depends_target_sysproglab5
+  DEP_FILE = CMakeFiles\sysproglab5.dir\input2.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\sysproglab5.dir
   OBJECT_FILE_DIR = CMakeFiles\sysproglab5.dir
@@ -69,7 +75,7 @@ build CMakeFiles/sysproglab5.dir/input.c.obj: C_COMPILER__sysproglab5_unscanned_
 #############################################
 # Link the executable sysproglab5.exe
 
-build sysproglab5.exe: C_EXECUTABLE_LINKER__sysproglab5_Debug CMakeFiles/sysproglab5.dir/main.c.obj CMakeFiles/sysproglab5.dir/input.c.obj
+build sysproglab5.exe: C_EXECUTABLE_LINKER__sysproglab5_Debug CMakeFiles/sysproglab5.dir/main.c.obj CMakeFiles/sysproglab5.dir/input1.c.obj CMakeFiles/sysproglab5.dir/input2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sysproglab5.dir
