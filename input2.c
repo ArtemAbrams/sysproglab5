@@ -4,12 +4,8 @@
 int main() {
     int v=1;
     int a=3;
-    int v;
     if(v > a) {
-        if(v > a) {
-            printf("noturaaaaa");
-            a = v - 1;
-        }
+        int v = a - 1;
     }
     else {
         printf("uraaaaaa");
